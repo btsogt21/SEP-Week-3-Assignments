@@ -1,0 +1,57 @@
+.container-1{
+    display:flex;
+    background-color: yellow;
+}
+
+.container-2{
+    display:flex;
+    background-color:yellow;
+    justify-content: space-around;
+}
+
+ul{
+    padding-inline-start: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-right: 10px;
+}
+
+ul li{
+    display:block;
+    position:relative;  
+    padding-bottom: 5px;
+    margin-top:5px;  
+}
+
+ul li:not(:last-child){
+    border-bottom: 1px solid black;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.Left{
+    width:25%;
+    background-color: green;
+    padding-left:5%;
+    padding-top:2%
+}
+
+.Middle-Left{
+    width:25%;
+    background-color: navajowhite;
+    padding-top:2%
+}
+
+.Middle-Right{
+    width:25%;
+    background-color: burlywood;
+    padding-top:2%
+}
+
+.Right{
+    width: 30%;
+    background-color: aquamarine;
+    padding-top:2%
+}
